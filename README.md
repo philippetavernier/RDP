@@ -51,7 +51,7 @@ startxfce4
 ```
 Restart RDP service
 ```
-sudo service xrdp restar
+sudo service xrdp restart
 
 ```
 
