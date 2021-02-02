@@ -55,3 +55,6 @@ sudo service xrdp restart
 
 ```
 
+## VNC CLIENT
+### REMINA
+Connect with display "GFX RFX 32 bpp mod"
