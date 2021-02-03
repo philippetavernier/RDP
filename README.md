@@ -7,6 +7,8 @@ sudo apt-get install xfce4
 sudo apt-get install xfce4-terminal
 sudo apt-get install xserver-xorg-core
 sudo apt-get install xorgxrdp
+# to still activate local mousse & keyboard
+sudo apt-get install xserver-xorg-input-all
 ```
 
 edit /etc/xrdp/startwm.sh
