@@ -56,6 +56,14 @@ startxfce4
 Restart XRDP service
 ```
 sudo service xrdp restart
+```
+
+### DEBUG
+```
+sudo service xrdp status
+cat /var/log/xrdp.log 
+cat /var/log/xrdp-sesman.log 
+
 sudo service xrdp-sesman status
 ```
 
