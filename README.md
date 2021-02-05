@@ -53,10 +53,17 @@ exec /bin/sh /etc/X11/Xsession
 startxfce4
 
 ```
-Restart RDP service
+Restart XRDP service
 ```
 sudo service xrdp restart
+sudo service xrdp-sesman status
+```
 
+### STOP XRDP FROM STARTUP BOOTING
+```
+sudo systemctl disable xrdp xrdp-sesman.
+systemctl list-dependencies xrdp
+sudo systemctl mask xrdp
 ```
 
 ## VNC CLIENT
