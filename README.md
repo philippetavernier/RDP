@@ -77,3 +77,5 @@ sudo systemctl mask xrdp
 ## VNC CLIENT
 ### REMINA
 Connect with display "GFX RFX 32 bpp mod"
+
+### xtightvnc viewer
