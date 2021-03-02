@@ -74,7 +74,7 @@ systemctl list-dependencies xrdp
 sudo systemctl mask xrdp
 ```
 
-## VNC CLIENT
-### REMINA
+## CLIENT
+### REMMINA
 Connect with display "GFX RFX 32 bpp mod"
 
