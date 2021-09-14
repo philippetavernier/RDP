@@ -1,4 +1,4 @@
-# RDP
+# XRDP
 
 ## SERVER INSTALL
 ```
@@ -77,4 +77,18 @@ sudo systemctl mask xrdp
 ## CLIENT
 ### REMMINA
 Connect with display "GFX RFX 32 bpp mod"
+
+
+# XXRDP KALI LINUX
+```
+sudo apt-get update
+sudo apt-get install lxde-core kali-defaults kali-root-login desktop-base
+sudo apt-get install xrdp
+sudo service xrdp start
+sudo service xrdp status
+sudo service xrdp-sesman start
+sudo update-rc.d xrdp enable
+sudo update-alternatives --config x-session-manager
+```
+
 
